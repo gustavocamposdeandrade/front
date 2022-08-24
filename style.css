@@ -118,3 +118,17 @@ form label, form p{
 .checkbox{
     margin: 20px 0;
 }
+
+/* Quando atribuimos estilo para um elemento, sobressai o que tiver mais peso de acordo com o peso abaixo:
+tag = 1
+class = 10
+id = 100
+inline = MAXIMO, pois esta direto na linha do HTML
+Os pesos podem ser somados, como por exemplo: 
+p = 1
+form p = 1+1
+
+.teste = 10
+p .teste = 1 + 10
+...
+*/
