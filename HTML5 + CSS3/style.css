@@ -136,7 +136,7 @@ p .teste = 1 + 10
 .enviar {
     width: 50%;
     padding: 15px 0;
-    background: orange;
+    background: linear-gradient(blue, rgb(19, 3, 122));
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -147,7 +147,7 @@ p .teste = 1 + 10
 }
 
 .enviar:hover{
-    background: darkorange;
+    background: linear-gradient(darkblue, black);
     transform: scale(1.2); /* aumenta o botao dentro da estaca definida */
     /*transform: rotate(360deg) scale(1.2); aqui o botão roda na tela (animação)*/
 }
